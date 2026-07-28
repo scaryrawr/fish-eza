@@ -14,7 +14,7 @@ function __fish_eza_install --on-event fish-eza_install
     set -Ux EZA_LG_OPTIONS "--git" "--git-ignore" "--long"
     set -Ux EZA_LE_OPTIONS "--extended" "--long"
     set -Ux EZA_LS_OPTIONS
-    set -Ux EZA_LT_OPTIONS "--tree" "--level"
+    set -Ux EZA_LT_OPTIONS "--tree" "--level" "2"
     set -Ux EZA_LC_OPTIONS "--across"
     set -Ux EZA_LO_OPTIONS "--oneline"
 

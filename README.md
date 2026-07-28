@@ -24,7 +24,7 @@ fisher install plttn/fish-eza
 | `ll` in git repo | `eza --group --header --group-directories-first --long --git`              |
 | `lg`             | `eza --group --header --group-directories-first --long --git --git-ignore` |
 | `le`             | `eza --group --header --group-directories-first --long --extended`         |
-| `lt`             | `eza --group --header --group-directories-first --tree --level LEVEL`      |
+| `lt`             | `eza --group --header --group-directories-first --tree --level 2`          |
 | `lc`             | `eza --group --header --group-directories-first --across`                  |
 | `lo`             | `eza --group --header --group-directories-first --oneline`                 |
 
@@ -59,7 +59,7 @@ ezamples:
 llad => --all --binary --only-dirs --group --header --group-directories-first --long
         ------------ad------------  -----------------------ll------------------------
 
-ltaa => --all --binary --all --group --header --group-directories-first --tree --level LEVEL
+ltaa => --all --binary --all --group --header --group-directories-first --tree --level 2
         ---------aa---------  ------------------------------lt--------------------------------
 ```
 
